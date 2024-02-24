@@ -1,6 +1,5 @@
 import random
 
-
 print("**********************************")
 print ("****Bem-vindo ao jogo da forca***")
 print("**********************************")
@@ -11,8 +10,6 @@ numero = random.randrange(0, len(palavras))
 palavra_secreta = palavras[numero].upper()
 
 letras_acertada = ["_" for letra in palavra_secreta]
-
-#OU LETRAS_ACERTADA = ["_" FOR LETRA IN PALAVRA_SECRETA]
 
 enforcou = False
 acertou = False
